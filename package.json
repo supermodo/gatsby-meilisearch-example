@@ -1,1 +1,25 @@
-{"name":"my-gatsby-site","version":"1.0.0","private":true,"description":"My Gatsby Site","author":"Charlotte Vermandel","keywords":["gatsby"],"scripts":{"develop":"gatsby develop","start":"gatsby develop","build":"gatsby build","serve":"gatsby serve","clean":"gatsby clean"},"dependencies":{"gatsby":"^2.32.3","react":"^16.13.1","react-dom":"^16.13.1"}}
+{
+  "name": "my-gatsby-site",
+  "version": "1.0.0",
+  "private": true,
+  "description": "My Gatsby Site",
+  "author": "Charlotte Vermandel",
+  "keywords": [
+    "gatsby"
+  ],
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "gatsby develop",
+    "build": "gatsby build",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean"
+  },
+  "dependencies": {
+    "@meilisearch/instant-meilisearch": "^0.2.7",
+    "gatsby": "^2.32.3",
+    "instantsearch.css": "^7.4.5",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-instantsearch-dom": "^6.9.0"
+  }
+}
